@@ -26,11 +26,11 @@ export class AppComponent {
     { titulo: 'DUELE', url: 'https://www.youtube.com/watch?v=KcUE8Vz-KMQ&list=RDspbagny8OjM&index=4&pp=8AUB' },
     { titulo: 'POR PERRO', url: 'https://www.youtube.com/watch?v=WtE011iVx1Q&list=RDspbagny8OjM&index=6&pp=8AUB' },
     { titulo: 'ENTRE NOSOTROS', url: 'https://youtu.be/sidPTvbTv9o?list=RDspbagny8OjM' },
-    { titulo: 'Canción 6', url: 'https://example.com/cancion6' },
-    { titulo: 'Canción 7', url: 'https://example.com/cancion7' },
-    { titulo: 'Canción 8', url: 'https://example.com/cancion8' },
-    { titulo: 'Canción 9', url: 'https://example.com/cancion9' },
-    { titulo: 'Canción 10', url: 'https://example.com/cancion10' }
+    { titulo: 'LET ME LOVE YOU', url: 'https://youtu.be/euCqAq6BRa4?list=RDspbagny8OjM' },
+    { titulo: 'AMBIENTE', url: 'https://www.youtube.com/watch?v=rzgw0XldTC0&pp=ygUUYW1iaWVudGUgZGUgaiBiYWx2aW4%3D' },
+    { titulo: 'ROJO', url: 'https://www.youtube.com/watch?v=_tG70FWd1Ds&pp=ygUNcm9qbyBqIGJhbHZpbg%3D%3D' },
+    { titulo: 'VENGANZA', url: 'https://www.youtube.com/watch?v=6gHnmXB4t1k&pp=ygUVdmVuZ2FuemEgbmlja2kgbmljb2xl' },
+    { titulo: 'TRAS EL CRISTAL', url: 'https://www.youtube.com/watch?v=yk-gOFrRw3Q&pp=ygUVdHJhcyBlbCBjcmlzdGFsIHBvcnRh' }
   ];
 
   cosasQueMeGustan = [
