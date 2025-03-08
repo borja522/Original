@@ -1,0 +1,109 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
+.todo {
+  min-height: 100%; /* Se expande según el contenido */
+  width: 100%;
+  background-image: url('/assets/image2.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fija el fondo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+    display: none;
+  }
+  
+  .container {
+    text-align: center;
+  min-height: 100vh; /* Mantiene la sección visible */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Mantiene centrado el contenido */
+  align-items: center;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espacio entre el input y el botón */
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  label {
+    color: #fff;
+  }
+
+  h1 {
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .caja {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .caja img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+  }
+  
+  .advertencia {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .botones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Para centrar los botones */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 10px;
+  }
+  
